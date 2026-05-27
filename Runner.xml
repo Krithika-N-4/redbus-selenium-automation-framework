@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Restful Booker Suite">
+
+	<listeners>
+		<listener class-name="utilities.Listeners" />
+	</listeners>
+  	
+  	<test name="End To End Test">
+    	<classes>
+    		
+    		<class name="com.runner.TestRunnerTestNG"/>
+    		
+     	</classes>
+  	</test>
+   	
+   	<!--<test name="Regression Test">
+    	<classes>
+     	 	<class name="tests.HPZTests"/>
+   		 </classes>
+  		
+  	</test>-->
+</suite>
