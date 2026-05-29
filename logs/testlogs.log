@@ -177,4 +177,160 @@
 27-05-2026 13:38:02 [main] INFO  com.setup.ScreenshotUtil - Screenshot captured successfully
 27-05-2026 13:38:02 [main] INFO  com.setup.BaseSteps - Browser closed for scenario: Positive TC_01 - To validate busname, boarding point and dropping point in Payment page
 27-05-2026 13:38:03 [main] INFO  com.setup.BaseSteps - Extent Test Report created
-27-05-2026 13:38:03 [main] INFO  com.setup.BaseSteps - =======================================================================
+27-05-2026 13:38:03 [main] INFO  com.setup.BaseSteps - ========================================================================29-05-2026 23:30:56 [main] INFO  com.setup.BaseSteps - =======================================================================
+29-05-2026 23:55:04 [main] INFO  com.setup.BaseSteps - =======================================================================
+29-05-2026 23:55:04 [main] INFO  com.stepdefinition.CommonSteps - RedBus page loaded
+29-05-2026 23:55:06 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' button
+29-05-2026 23:55:06 [main] INFO  com.stepdefinition.CommonSteps - Typing 'from' location - Chennai
+29-05-2026 23:55:06 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' location - Chennai
+29-05-2026 23:55:06 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' button
+29-05-2026 23:55:07 [main] INFO  com.stepdefinition.CommonSteps - Typing 'to' location - Salem
+29-05-2026 23:55:07 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' location - Salem
+29-05-2026 23:55:08 [main] INFO  com.stepdefinition.CommonSteps - Clicking date button
+29-05-2026 23:55:08 [main] INFO  com.stepdefinition.CommonSteps - Clicking date arrow button
+29-05-2026 23:55:08 [main] INFO  com.stepdefinition.CommonSteps - Selecting date
+29-05-2026 23:55:09 [main] INFO  com.stepdefinition.CommonSteps - Booking for women toggle
+29-05-2026 23:55:09 [main] INFO  com.stepdefinition.CommonSteps - Closing booking for women popup
+29-05-2026 23:55:09 [main] INFO  com.stepdefinition.CommonSteps - Clicking search button
+29-05-2026 23:55:13 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Primo Bus' filter button
+29-05-2026 23:55:15 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'AC' filter button
+29-05-2026 23:55:16 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Single Seats' filter button
+29-05-2026 23:55:17 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Free cancellation Banner' button
+29-05-2026 23:55:18 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Special bus features' filter button
+29-05-2026 23:55:20 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Special bus features' filter option - On Time
+29-05-2026 23:55:25 [main] INFO  com.stepdefinition.CommonSteps - Clicking view seats button of the preferred bus
+29-05-2026 23:55:27 [main] INFO  com.stepdefinition.CommonSteps - Clicking seat input
+29-05-2026 23:55:27 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'select boarding & dropping points' button
+29-05-2026 23:55:28 [main] INFO  com.stepdefinition.CommonSteps - Clicking boarding point - KOYEMBEDU
+29-05-2026 23:55:28 [main] INFO  com.stepdefinition.CommonSteps - Clicking dropping point - KALLAKURICHI
+29-05-2026 23:55:29 [main] INFO  com.stepdefinition.CommonSteps - Typing phone number input
+29-05-2026 23:55:29 [main] INFO  com.stepdefinition.CommonSteps - Typing email input
+29-05-2026 23:55:29 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' button
+29-05-2026 23:55:30 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' input - 'Tamil Nadu'
+29-05-2026 23:55:30 [main] INFO  com.stepdefinition.CommonSteps - Typing name input
+29-05-2026 23:55:30 [main] INFO  com.stepdefinition.CommonSteps - Typing age input
+29-05-2026 23:55:31 [main] INFO  com.stepdefinition.CommonSteps - Clicking gender button
+29-05-2026 23:55:31 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don't add Free Cancellation' button
+29-05-2026 23:55:32 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don’t add redBus Assurance' button
+29-05-2026 23:55:33 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'Continue booking' button
+29-05-2026 23:55:36 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Add credit/debit card' button
+29-05-2026 23:55:38 [main] INFO  com.stepdefinition.EndToEndSteps - Typing card number
+29-05-2026 23:55:38 [main] INFO  com.stepdefinition.EndToEndSteps - Typing card name
+29-05-2026 23:55:41 [main] INFO  com.stepdefinition.EndToEndSteps - Typing expiry date
+29-05-2026 23:55:41 [main] INFO  com.stepdefinition.EndToEndSteps - Typing cvv number
+29-05-2026 23:55:42 [main] INFO  com.stepdefinition.EndToEndSteps - TC_01 passed - End to End RedBus Test
+29-05-2026 23:55:43 [main] INFO  com.setup.BaseSteps - Browser closed for scenario: Positive TC_04 (E2E) - User books a bus ticket successfully
+29-05-2026 23:55:45 [main] INFO  com.setup.BaseSteps - =======================================================================
+29-05-2026 23:55:45 [main] INFO  com.stepdefinition.CommonSteps - RedBus page loaded
+29-05-2026 23:55:45 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' button
+29-05-2026 23:55:46 [main] INFO  com.stepdefinition.CommonSteps - Typing 'from' location - Chennai
+29-05-2026 23:55:46 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' location - Chennai
+29-05-2026 23:55:46 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' button
+29-05-2026 23:55:46 [main] INFO  com.stepdefinition.CommonSteps - Typing 'to' location - Salem
+29-05-2026 23:55:46 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' location - Salem
+29-05-2026 23:55:47 [main] INFO  com.stepdefinition.CommonSteps - Clicking date button
+29-05-2026 23:55:47 [main] INFO  com.stepdefinition.CommonSteps - Clicking date arrow button
+29-05-2026 23:55:47 [main] INFO  com.stepdefinition.CommonSteps - Selecting date
+29-05-2026 23:55:48 [main] INFO  com.stepdefinition.CommonSteps - Booking for women toggle
+29-05-2026 23:55:48 [main] INFO  com.stepdefinition.CommonSteps - Closing booking for women popup
+29-05-2026 23:55:49 [main] INFO  com.stepdefinition.CommonSteps - Clicking search button
+29-05-2026 23:55:50 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Primo Bus' filter button
+29-05-2026 23:55:51 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'AC' filter button
+29-05-2026 23:55:52 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Single Seats' filter button
+29-05-2026 23:55:54 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Free cancellation Banner' button
+29-05-2026 23:55:55 [main] INFO  com.stepdefinition.CommonSteps - Clicking view seats button of the preferred bus
+29-05-2026 23:55:57 [main] INFO  com.stepdefinition.CommonSteps - Clicking seat input
+29-05-2026 23:55:57 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'select boarding & dropping points' button
+29-05-2026 23:55:58 [main] INFO  com.stepdefinition.CommonSteps - Clicking boarding point - KOYEMBEDU
+29-05-2026 23:55:59 [main] INFO  com.stepdefinition.CommonSteps - Clicking dropping point - KALLAKURICHI
+29-05-2026 23:55:59 [main] INFO  com.stepdefinition.CommonSteps - Typing phone number input
+29-05-2026 23:55:59 [main] INFO  com.stepdefinition.CommonSteps - Typing email input
+29-05-2026 23:56:00 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' button
+29-05-2026 23:56:00 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' input - 'Tamil Nadu'
+29-05-2026 23:56:00 [main] INFO  com.stepdefinition.CommonSteps - Typing name input
+29-05-2026 23:56:01 [main] INFO  com.stepdefinition.CommonSteps - Typing age input
+29-05-2026 23:56:01 [main] INFO  com.stepdefinition.CommonSteps - Clicking gender button
+29-05-2026 23:56:01 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don't add Free Cancellation' button
+29-05-2026 23:56:02 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don’t add redBus Assurance' button
+29-05-2026 23:56:04 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'Continue booking' button
+29-05-2026 23:56:06 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Add credit/debit card' button
+29-05-2026 23:56:10 [main] INFO  c.stepdefinition.NegativeTestsSteps - TC_03 - The respective error messages for card number, card name, expiry date and cvv must be displayed in the payment page
+29-05-2026 23:56:13 [main] INFO  c.stepdefinition.NegativeTestsSteps - TC_03 passed - The respective error messages for card number, card name, expiry date and cvv are displayed in the payment page
+29-05-2026 23:56:14 [main] INFO  com.setup.BaseSteps - Browser closed for scenario: Negative TC_03 - To validate error messages for missing card details on the Payment page
+29-05-2026 23:56:16 [main] INFO  com.setup.BaseSteps - =======================================================================
+29-05-2026 23:56:16 [main] INFO  com.stepdefinition.CommonSteps - RedBus page loaded
+29-05-2026 23:56:16 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' button
+29-05-2026 23:56:16 [main] INFO  com.stepdefinition.CommonSteps - Typing 'from' location - Chennai
+29-05-2026 23:56:17 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' location - Chennai
+29-05-2026 23:56:17 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' button
+29-05-2026 23:56:17 [main] INFO  com.stepdefinition.CommonSteps - Typing 'to' location - Salem
+29-05-2026 23:56:17 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' location - Salem
+29-05-2026 23:56:18 [main] INFO  com.stepdefinition.CommonSteps - Clicking date button
+29-05-2026 23:56:18 [main] INFO  com.stepdefinition.CommonSteps - Clicking date arrow button
+29-05-2026 23:56:18 [main] INFO  com.stepdefinition.CommonSteps - Selecting date
+29-05-2026 23:56:19 [main] INFO  com.stepdefinition.CommonSteps - Booking for women toggle
+29-05-2026 23:56:20 [main] INFO  com.stepdefinition.CommonSteps - Closing booking for women popup
+29-05-2026 23:56:20 [main] INFO  com.stepdefinition.CommonSteps - Clicking search button
+29-05-2026 23:56:21 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Primo Bus' filter button
+29-05-2026 23:56:22 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'AC' filter button
+29-05-2026 23:56:24 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Single Seats' filter button
+29-05-2026 23:56:25 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Free cancellation Banner' button
+29-05-2026 23:56:26 [main] INFO  com.stepdefinition.CommonSteps - Clicking view seats button of the preferred bus
+29-05-2026 23:56:28 [main] INFO  com.stepdefinition.CommonSteps - Clicking seat input
+29-05-2026 23:56:28 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'select boarding & dropping points' button
+29-05-2026 23:56:29 [main] INFO  com.stepdefinition.CommonSteps - Clicking boarding point - KOYEMBEDU
+29-05-2026 23:56:29 [main] INFO  com.stepdefinition.CommonSteps - Clicking dropping point - KALLAKURICHI
+29-05-2026 23:56:30 [main] INFO  com.stepdefinition.CommonSteps - Typing phone number input
+29-05-2026 23:56:30 [main] INFO  com.stepdefinition.CommonSteps - Typing email input
+29-05-2026 23:56:31 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' button
+29-05-2026 23:56:31 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' input - 'Tamil Nadu'
+29-05-2026 23:56:31 [main] INFO  com.stepdefinition.CommonSteps - Typing name input
+29-05-2026 23:56:32 [main] INFO  com.stepdefinition.CommonSteps - Typing age input
+29-05-2026 23:56:32 [main] INFO  com.stepdefinition.CommonSteps - Clicking gender button
+29-05-2026 23:56:32 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don't add Free Cancellation' button
+29-05-2026 23:56:33 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don’t add redBus Assurance' button
+29-05-2026 23:56:35 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'Continue booking' button
+29-05-2026 23:56:37 [main] INFO  c.stepdefinition.PositiveTestsSteps - TC_01 - The selected bus name, boarding and dropping points must be displayed correctly on the Payment page
+29-05-2026 23:56:41 [main] INFO  c.stepdefinition.PositiveTestsSteps - TC_01 passed - The selected bus name, boarding and dropping points are displayed correctly on the Payment page
+29-05-2026 23:56:41 [main] INFO  com.setup.BaseSteps - Browser closed for scenario: Positive TC_01 - To validate busname, boarding point and dropping point in Payment page
+29-05-2026 23:56:43 [main] INFO  com.setup.BaseSteps - =======================================================================
+29-05-2026 23:56:43 [main] INFO  com.stepdefinition.CommonSteps - RedBus page loaded
+29-05-2026 23:56:43 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' button
+29-05-2026 23:56:43 [main] INFO  com.stepdefinition.CommonSteps - Typing 'from' location - Chennai
+29-05-2026 23:56:44 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'from' location - Chennai
+29-05-2026 23:56:44 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' button
+29-05-2026 23:56:44 [main] INFO  com.stepdefinition.CommonSteps - Typing 'to' location - Salem
+29-05-2026 23:56:44 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'to' location - Salem
+29-05-2026 23:56:45 [main] INFO  com.stepdefinition.CommonSteps - Clicking date button
+29-05-2026 23:56:45 [main] INFO  com.stepdefinition.CommonSteps - Clicking date arrow button
+29-05-2026 23:56:45 [main] INFO  com.stepdefinition.CommonSteps - Selecting date
+29-05-2026 23:56:46 [main] INFO  com.stepdefinition.CommonSteps - Booking for women toggle
+29-05-2026 23:56:47 [main] INFO  com.stepdefinition.CommonSteps - Closing booking for women popup
+29-05-2026 23:56:47 [main] INFO  com.stepdefinition.CommonSteps - Clicking search button
+29-05-2026 23:56:47 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Primo Bus' filter button
+29-05-2026 23:56:49 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'AC' filter button
+29-05-2026 23:56:50 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Single Seats' filter button
+29-05-2026 23:56:52 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Free cancellation Banner' button
+29-05-2026 23:56:53 [main] INFO  com.stepdefinition.CommonSteps - Clicking view seats button of the preferred bus
+29-05-2026 23:56:55 [main] INFO  com.stepdefinition.CommonSteps - Clicking seat input
+29-05-2026 23:56:55 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'select boarding & dropping points' button
+29-05-2026 23:56:56 [main] INFO  com.stepdefinition.CommonSteps - Clicking boarding point - KOYEMBEDU
+29-05-2026 23:56:57 [main] INFO  com.stepdefinition.CommonSteps - Clicking dropping point - KALLAKURICHI
+29-05-2026 23:56:57 [main] INFO  com.stepdefinition.CommonSteps - Typing phone number input
+29-05-2026 23:56:58 [main] INFO  com.stepdefinition.CommonSteps - Typing email input
+29-05-2026 23:56:58 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' button
+29-05-2026 23:56:58 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'State of Residence' input - 'Tamil Nadu'
+29-05-2026 23:56:58 [main] INFO  com.stepdefinition.CommonSteps - Typing name input
+29-05-2026 23:56:59 [main] INFO  com.stepdefinition.CommonSteps - Typing age input
+29-05-2026 23:56:59 [main] INFO  com.stepdefinition.CommonSteps - Clicking gender button
+29-05-2026 23:56:59 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don't add Free Cancellation' button
+29-05-2026 23:57:01 [main] INFO  com.stepdefinition.EndToEndSteps - Clicking 'Don’t add redBus Assurance' button
+29-05-2026 23:57:02 [main] INFO  com.stepdefinition.CommonSteps - Clicking 'Continue booking' button
+29-05-2026 23:57:05 [main] INFO  c.stepdefinition.PositiveTestsSteps - Base fare = 1999.0
+29-05-2026 23:57:05 [main] INFO  c.stepdefinition.PositiveTestsSteps - gst fare = 94.95
+29-05-2026 23:57:05 [main] INFO  c.stepdefinition.PositiveTestsSteps - Expected total = 1993.95
+29-05-2026 23:57:05 [main] INFO  c.stepdefinition.PositiveTestsSteps - Actual total = 1993.95
+29-05-2026 23:57:08 [main] INFO  c.stepdefinition.PositiveTestsSteps - TC_02 passed - Correct total amount is displayed
+29-05-2026 23:57:08 [main] INFO  com.setup.BaseSteps - Browser closed for scenario: Positive TC_02 - To validate that the correct total amount displayed in the Payment page
+29-05-2026 23:57:09 [main] INFO  com.setup.BaseSteps - Extent Test Report created
+29-05-2026 23:57:09 [main] INFO  com.setup.BaseSteps - =======================================================================

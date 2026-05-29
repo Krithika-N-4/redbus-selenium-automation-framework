@@ -3,7 +3,6 @@ package com.stepdefinition;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -182,7 +181,7 @@ public class EndToEndSteps {
 		searchpage.clickElement(nobusinsbtn);
 	}
 
-	@When("User toggles - redBus Cares Donation toggle")
+	/*@When("User toggles - redBus Cares Donation toggle")
 	public void user_toggles_red_bus_cares_donation_toggle() throws InterruptedException {
 		
 		BaseSteps.test.info("User toggles - redBus Cares Donation toggle");
@@ -193,7 +192,7 @@ public class EndToEndSteps {
 		BaseSteps.actions.scrollToElement(redcaretoggle).pause(Duration.ofMillis(300)).perform();
 		Thread.sleep(1000);
 		searchpage.clickElement(redcaretoggle);
-	}
+	}*/
 
 	@Then("User is navigated to the Payment page")
 	public void user_is_navigated_to_the_payment_page() throws InterruptedException {

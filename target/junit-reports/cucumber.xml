@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="45.512" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-05-27T08:07:17.552666800Z">
-<testcase classname="Positive Tests on RedBus Website" name="Positive TC_01 - To validate busname, boarding point and dropping point in Payment page - #1.1" time="45.133">
-<failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for presence of element found by By.xpath: //button[contains(@aria-label, 'YBM Travels(BLM)')]
-(tried for 25 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 11344, ms:edgeOptions: {debuggerAddress: localhost:55704}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\Krithika\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdc4e26c8cad54dda6289bd3c0695bb9">
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.xpath: //button[contains(@aria-label, 'YBM Travels(BLM)')]
-(tried for 25 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.83, fedcm:accounts: true, goog:processID: 11344, ms:edgeOptions: {debuggerAddress: localhost:55704}, msedge: {msedgedriverVersion: 148.0.3967.83 (2db6d3cb8b2d..., userDataDir: C:\Users\Krithika\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55704/devtoo..., se:cdpVersion: 148.0.3967.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cdc4e26c8cad54dda6289bd3c0695bb9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.pages.SearchPage.viewSeatsButton(SearchPage.java:65)
-	at com.stepdefinition.CommonSteps.user_selects_a_bus_using_view_seats_button(CommonSteps.java:182)
-	at ✽.User selects a bus using view seats button(file:///D:/eclipse-workspace/RedBus/src/test/resources/Features/PositiveTests.feature:21)
-]]>
-</failure>
+<testsuite name="Cucumber" time="126.893" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-29T18:25:02.222987900Z">
+<testcase classname="End to End Bus Ticket Booking on RedBus Website" name="Positive TC_04 (E2E) - User books a bus ticket successfully - #1.1" time="41.373">
+<system-out><![CDATA[
+Given The user is on RedBus website.........................................passed
+When User enters source city and click in the dropdown option...............passed
+And User enters destination city and click in the dropdown option...........passed
+And User clicks date option and selects the journey date....................passed
+And User toggles Booking for women toggle and closes the pop up.............passed
+Then User clicks - search button............................................passed
+Then The list of available buses should be displayed........................passed
+When User clicks - multiple filters like Primo Bus, Single Seats and AC.....passed
+And User clicks - Free Cancellation banner filter...........................passed
+And User clicks - Special bus features filter button and clicks the Free date change option.passed
+Then All the selected filters are applied in the search list................passed
+When User selects a bus using view seats button.............................passed
+And User selects an available seat..........................................passed
+And User clicks - Select boarding & dropping point button...................passed
+And User selects boarding point and dropping point..........................passed
+And User enters contact details like Phone number, Email ID and State of Residence.passed
+And User enters passenger details like Name "Preshika", Age "21" and Gender "Female".passed
+And User clicks - Dont add Free Cancellation checkbox.......................passed
+And User clicks - Dont add Redbus Assurance checkbox........................passed
+And User clicks - Continue booking button...................................passed
+Then User is navigated to the Payment page..................................passed
+When User clicks - Add credit/debit card button.............................passed
+And User enters card number, card holder name, expiry date and cvv..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Negative Tests on RedBus Website" name="Negative TC_03 - To validate error messages for missing card details on the Payment page - #1.1" time="30.847">
 <system-out><![CDATA[
 Given The user is on RedBus website.........................................passed
 When User enters source city and click in the dropdown option...............passed
@@ -31,17 +37,65 @@ And User toggles Booking for women toggle and closes the pop up.............pass
 Then User clicks - search button............................................passed
 When User clicks - multiple filters like Primo Bus, Single Seats and AC.....passed
 And User clicks - Free Cancellation banner filter...........................passed
-And User selects a bus using view seats button..............................failed
-And User selects an available seat..........................................skipped
-And User clicks - Select boarding & dropping point button...................skipped
-And User selects boarding point and click Fill passenger details button.....skipped
-And User enters contact details like Phone number, Email ID and State of Residence.skipped
-And User enters passenger details like Name "Preshika", Age "21" and Gender "Female".skipped
-And User clicks - Dont add Free Cancellation checkbox.......................skipped
-And User clicks - Dont add Redbus Assurance checkbox........................skipped
-And User clicks - Continue booking button...................................skipped
-Then User is navigated to the Payment page..................................skipped
-Then The selected bus name, boarding and dropping points must be displayed correctly on the Payment page.skipped
+And User selects a bus using view seats button..............................passed
+And User selects an available seat..........................................passed
+And User clicks - Select boarding & dropping point button...................passed
+And User selects boarding point and dropping point..........................passed
+And User enters contact details like Phone number, Email ID and State of Residence.passed
+And User enters passenger details like Name "Preshika", Age "21" and Gender "Female".passed
+And User clicks - Dont add Free Cancellation checkbox.......................passed
+And User clicks - Dont add Redbus Assurance checkbox........................passed
+And User clicks - Continue booking button...................................passed
+Then User is navigated to the Payment page..................................passed
+When User clicks - Add credit/debit card button.............................passed
+Then User clicks - Pay amount button........................................passed
+Then The respective error messages for card number "Enter valid card number", card name "Please enter valid card holder name", expiry date "Please enter valid expiry year" and cvv "Please enter valid cvv" must be displayed in the payment page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Positive Tests on RedBus Website" name="Positive TC_01 - To validate busname, boarding point and dropping point in Payment page - #1.1" time="27.167">
+<system-out><![CDATA[
+Given The user is on RedBus website.........................................passed
+When User enters source city and click in the dropdown option...............passed
+And User enters destination city and click in the dropdown option...........passed
+And User clicks date option and selects the journey date....................passed
+And User toggles Booking for women toggle and closes the pop up.............passed
+Then User clicks - search button............................................passed
+When User clicks - multiple filters like Primo Bus, Single Seats and AC.....passed
+And User clicks - Free Cancellation banner filter...........................passed
+And User selects a bus using view seats button..............................passed
+And User selects an available seat..........................................passed
+And User clicks - Select boarding & dropping point button...................passed
+And User selects boarding point and dropping point..........................passed
+And User enters contact details like Phone number, Email ID and State of Residence.passed
+And User enters passenger details like Name "Preshika", Age "21" and Gender "Female".passed
+And User clicks - Dont add Free Cancellation checkbox.......................passed
+And User clicks - Dont add Redbus Assurance checkbox........................passed
+And User clicks - Continue booking button...................................passed
+Then User is navigated to the Payment page..................................passed
+Then The selected bus name, boarding and dropping points must be displayed correctly on the Payment page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Positive Tests on RedBus Website" name="Positive TC_02 - To validate that the correct total amount displayed in the Payment page - #1.1" time="27.147">
+<system-out><![CDATA[
+Given The user is on RedBus website.........................................passed
+When User enters source city and click in the dropdown option...............passed
+And User enters destination city and click in the dropdown option...........passed
+And User clicks date option and selects the journey date....................passed
+And User toggles Booking for women toggle and closes the pop up.............passed
+Then User clicks - search button............................................passed
+When User clicks - multiple filters like Primo Bus, Single Seats and AC.....passed
+And User clicks - Free Cancellation banner filter...........................passed
+And User selects a bus using view seats button..............................passed
+And User selects an available seat..........................................passed
+And User clicks - Select boarding & dropping point button...................passed
+And User selects boarding point and dropping point..........................passed
+And User enters contact details like Phone number, Email ID and State of Residence.passed
+And User enters passenger details like Name "Preshika", Age "21" and Gender "Female".passed
+And User clicks - Dont add Free Cancellation checkbox.......................passed
+And User clicks - Dont add Redbus Assurance checkbox........................passed
+And User clicks - Continue booking button...................................passed
+Then User is navigated to the Payment page..................................passed
+Then The correct total amount must be displayed in the Payment page.........passed
 ]]></system-out>
 </testcase>
 </testsuite>

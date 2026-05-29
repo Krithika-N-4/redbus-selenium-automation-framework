@@ -78,6 +78,12 @@ public class PaymentPage extends BaseSteps {
 				.presenceOfElementLocated(PaymentPageLocators.gstfare));
 	}
 	
+	public WebElement discountAmt() {
+		
+		return wait.until(ExpectedConditions
+				.presenceOfElementLocated(PaymentPageLocators.discount));
+	}
+	
 	
 	public WebElement totalFare() {
 		
@@ -88,14 +94,13 @@ public class PaymentPage extends BaseSteps {
 
 	public float getAmountAsFloat(String amountText) {
 		
-		if (amountText.contains(",")) {
-			
-			return Float.parseFloat(amountText.replace("₹", "").replace(",", ""));
-		}
-		else {
-		
-			return Float.parseFloat(amountText.replace("₹", ""));
-		}
+		amountText = amountText
+                .replace("₹", "")
+                .replace(",", "")
+                .replace(" ", "")  
+                .trim();
+
+		return Float.parseFloat(amountText);
 	}
 	
 	public WebElement payButton() {

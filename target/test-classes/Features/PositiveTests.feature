@@ -21,7 +21,7 @@ Feature: Positive Tests on RedBus Website
 		And User selects a bus using view seats button
 		And User selects an available seat
   		And User clicks - Select boarding & dropping point button
-  		And User selects boarding point and click Fill passenger details button
+  		And User selects boarding point and dropping point
   		And User enters contact details like Phone number, Email ID and State of Residence
   		And User enters passenger details like Name "<Name>", Age "<Age>" and Gender "<Gender>"
   		And User clicks - Dont add Free Cancellation checkbox
@@ -51,7 +51,7 @@ Feature: Positive Tests on RedBus Website
 		And User selects a bus using view seats button
 		And User selects an available seat 
   		And User clicks - Select boarding & dropping point button
-  		And User selects boarding point and click Fill passenger details button
+  		And User selects boarding point and dropping point
   		And User enters contact details like Phone number, Email ID and State of Residence
   		And User enters passenger details like Name "<Name>", Age "<Age>" and Gender "<Gender>"
   		And User clicks - Dont add Free Cancellation checkbox

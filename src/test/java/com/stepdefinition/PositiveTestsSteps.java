@@ -113,7 +113,9 @@ public class PositiveTestsSteps {
 			
 		log.info("gst fare = " + gstfare);
 		
-		float exptotal = basefare + gstfare;
+		float discount = paymentpage.getAmountAsFloat(paymentpage.discountAmt().getText());
+		
+		float exptotal = basefare + gstfare + discount;
 			
 		log.info("Expected total = " + exptotal);
 			

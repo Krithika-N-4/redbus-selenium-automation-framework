@@ -24,13 +24,12 @@ Feature: End to End Bus Ticket Booking on RedBus Website
 		When User selects a bus using view seats button
 		And User selects an available seat 
   		And User clicks - Select boarding & dropping point button
-  		And User selects boarding point and click Fill passenger details button
+  		And User selects boarding point and dropping point 
   		And User enters contact details like Phone number, Email ID and State of Residence
   		And User enters passenger details like Name "<Name>", Age "<Age>" and Gender "<Gender>"
   		
   		And User clicks - Dont add Free Cancellation checkbox
   		And User clicks - Dont add Redbus Assurance checkbox
-  		And User toggles - redBus Cares Donation toggle
   		And User clicks - Continue booking button
   		Then User is navigated to the Payment page
 

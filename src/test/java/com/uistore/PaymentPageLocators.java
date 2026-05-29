@@ -23,7 +23,9 @@ public class PaymentPageLocators {
 	public static By basefare = By.xpath("(//div[contains(@class,'paxItemRight___')])[1]");
 	
 	public static By gstfare = By.xpath("(//div[contains(@class,'paxItemRight___')])[2]");
-		
+	
+	public static By discount = By.xpath("//b[contains(@class,'discount')]");
+	
 	public static By totalfare = By.xpath("//div[contains(@class, 'totalText__')]/following-sibling::div");
 	
 	public static By paybutton = By.xpath("//button[contains(@class, 'primaryButton___') and @aria-label = 'Pay']");

@@ -126,20 +126,21 @@ public class SearchPage extends BaseSteps {
 				.elementToBeClickable(By.xpath("//div[text()='" + boardingpt + "']")));
 	}
 	
-	public WebElement fillDetailsButton() {
+	public WebElement dropPoint(String droppingpt) {
+	
+	return wait.until(ExpectedConditions
+			.elementToBeClickable(By.xpath("//div[text()='" + droppingpt + "']")));
+	}
+	
+	/*public WebElement fillDetailsButton() {
 		
 		wait.until(ExpectedConditions
 				.presenceOfElementLocated(SearchPageLocators.filldetailsbtn));
 		
 		return wait.until(ExpectedConditions
 				.elementToBeClickable(SearchPageLocators.filldetailsbtn));
-	}
-	
-	/*public WebElement dropPoint(String droppingpt) {
-		
-		return wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//div[text()='" + droppingpt + "']")));
 	}*/
+	
 	
 	public WebElement phoneInput() {
 		

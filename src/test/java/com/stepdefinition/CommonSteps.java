@@ -100,11 +100,11 @@ public class CommonSteps {
 			WebElement tobtn = homepage.toButton();
 			homepage.clickElement(tobtn);
 			
-			log.info("Typing 'to' location - Trichy");
+			log.info("Typing 'to' location - Salem");
 			WebElement toinputbox = HomePage.driver.switchTo().activeElement();
 			homepage.typeData(toinputbox, toinput);
 			
-			log.info("Clicking 'to' location - Trichy");
+			log.info("Clicking 'to' location - Salem");
 			WebElement toselect = homepage.toInput(toinput);
 			
 			homepage.clickElement(toselect);
@@ -215,7 +215,7 @@ public class CommonSteps {
 		searchpage.clickElement(boarddropbtn);
 	}
 
-	@And("User selects boarding point and click Fill passenger details button")
+	@And("User selects boarding point and dropping point")
 	public void user_selects_boarding_point_and_dropping_point() throws InvalidFormatException, IOException, InterruptedException {
 		
 		BaseSteps.test.info("User selects boarding point and dropping point");
@@ -225,19 +225,19 @@ public class CommonSteps {
 		boardingpt = data[0][7].toString();
 		droppingpt = data[0][8].toString();
 		
-		log.info("Clicking boarding point - REDHILLS YBM YARD");
+		log.info("Clicking boarding point - KOYEMBEDU");
 		WebElement boardpt = searchpage.boardPoint(boardingpt);
 		
 		searchpage.clickElement(boardpt);
 		
-		/*log.info("Clicking dropping point - Gandhipuram");
+		log.info("Clicking dropping point - KALLAKURICHI");
 		WebElement droppt = searchpage.dropPoint(droppingpt);
-		searchpage.clickElement(droppt);*/
+		searchpage.clickElement(droppt);
 		
-		log.info("Clicking Fill passender details button");
+		/*log.info("Clicking Fill passender details button");
 		WebElement filldetailsbtn = searchpage.fillDetailsButton();
 	
-		searchpage.clickElement(filldetailsbtn);
+		searchpage.clickElement(filldetailsbtn);*/
 	}
 
 	@When("User enters contact details like Phone number, Email ID and State of Residence")
@@ -299,6 +299,9 @@ public class CommonSteps {
 	    
 		log.info("Clicking 'Continue booking' button");
 		WebElement continuebtn = searchpage.continueButton();
+		
+		BaseSteps.actions.sendKeys(Keys.DOWN).perform();
+		
 		BaseSteps.actions.moveToElement(continuebtn).perform();
 
 		searchpage.clickElement(continuebtn);		
